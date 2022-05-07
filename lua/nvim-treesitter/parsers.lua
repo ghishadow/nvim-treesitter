@@ -1068,6 +1068,16 @@ list.proto = {
   filetype = "proto",
 }
 
+list.hare = {
+  install_info = {
+    url = "https://git.sr.ht/~ghishadow/tree-sitter-hare",
+    branch = "main",
+    files = { "src/parser.c", "src/scanner.c"},
+  },
+  maintainers = {"@ghishadow"},
+  filetype = "ha",
+}
+
 local M = {
   list = list,
   filetype_to_parsername = filetype_to_parsername,
